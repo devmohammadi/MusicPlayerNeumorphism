@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         rotate.interpolator = LinearInterpolator()
         rotate.repeatCount = Animation.INFINITE
 
-      //  binding.musicPageCoverImg.startAnimation(rotate)
+        binding.musicPageCoverImg.startAnimation(rotate)
 
     }
 }
